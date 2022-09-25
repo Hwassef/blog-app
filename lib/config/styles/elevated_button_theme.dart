@@ -1,5 +1,6 @@
 import 'package:blog_app/config/colors/app_colors.dart';
 import 'package:blog_app/config/constants/app_constants.dart';
+import 'package:blog_app/config/constants/app_sizes.dart';
 import 'package:flutter/material.dart';
 
 class AppElevatedButtonTheme {
@@ -13,7 +14,7 @@ class AppElevatedButtonTheme {
     fixedSize: MaterialStateProperty.resolveWith<Size>(
       (Set<MaterialState> states) => const Size(
         double.maxFinite,
-        55.0,
+        AppSizes.size55,
       ),
     ),
     backgroundColor: MaterialStateProperty.resolveWith<Color>((states) {
@@ -28,7 +29,7 @@ class AppElevatedButtonTheme {
       );
     }),
     elevation: MaterialStateProperty.resolveWith<double>(
-      (Set<MaterialState> states) => 2,
+      (Set<MaterialState> states) => AppSizes.size2,
     ),
     shape: MaterialStateProperty.resolveWith<OutlinedBorder>(
       (states) => const RoundedRectangleBorder(
