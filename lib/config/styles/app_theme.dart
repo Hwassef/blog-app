@@ -17,5 +17,6 @@ class AppThemes {
     disabledColor: AppColors.inactiveGreyColorLight,
     elevatedButtonTheme: AppElevatedButtonTheme.elevatedButtonThemeDataLight,
     outlinedButtonTheme: AppOutlinedButtonTheme.outlinedButtonThemeDataLight,
+    inputDecorationTheme: AppInputDecorationTheme.inputDecorationTheme,
   );
 }
