@@ -1,6 +1,4 @@
-import 'package:blog_app/config/colors/app_colors.dart';
-import 'package:blog_app/config/constants/app_constants.dart';
-import 'package:blog_app/config/constants/app_sizes.dart';
+import 'package:blog_app/config/config.dart';
 import 'package:flutter/material.dart';
 
 class AppElevatedButtonTheme {

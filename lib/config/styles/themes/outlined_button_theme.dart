@@ -1,6 +1,4 @@
-import 'package:blog_app/config/colors/app_colors.dart';
-import 'package:blog_app/config/constants/app_constants.dart';
-import 'package:blog_app/config/constants/app_sizes.dart';
+import 'package:blog_app/config/config.dart';
 import 'package:flutter/material.dart';
 
 class AppOutlinedButtonTheme {
@@ -13,7 +11,7 @@ class AppOutlinedButtonTheme {
     fixedSize: MaterialStateProperty.resolveWith<Size>(
       (Set<MaterialState> states) => const Size(
         double.maxFinite,
-        55,
+        AppSizes.size55,
       ),
     ),
     backgroundColor: MaterialStateProperty.resolveWith<Color>(
