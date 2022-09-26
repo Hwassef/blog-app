@@ -4,6 +4,7 @@ class AppPaddings {
   AppPaddings._();
   static const double smallPaddingValue = 12.0;
   static const double regularPaddingValue = 16.0;
+  static const double mediumPaddingValue = 22.0;
   static const double largePaddingValue = 24.0;
 
   static const EdgeInsets rightSmallPadding = EdgeInsets.only(left: smallPaddingValue);
@@ -17,4 +18,9 @@ class AppPaddings {
   static const EdgeInsets rightLargePadding = EdgeInsets.only(right: largePaddingValue);
   static const EdgeInsets leftLargePadding = EdgeInsets.only(left: largePaddingValue);
   static const EdgeInsets horizontalLargePadding = EdgeInsets.symmetric(horizontal: largePaddingValue);
+
+  static const EdgeInsets inputContentPadding = EdgeInsets.symmetric(
+    vertical: mediumPaddingValue,
+    horizontal: regularPaddingValue,
+  );
 }
